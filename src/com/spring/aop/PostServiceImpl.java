@@ -18,4 +18,9 @@ public class PostServiceImpl implements PostService{
 		return "PostService....Likes";
 	}
 
+	@Override
+	public void startService() {
+			System.out.println("Start Service...");
+	}
+
 }

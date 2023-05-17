@@ -20,13 +20,14 @@ public class MainApp {
 		PostDao pd = an.getBean("postDaoImpl",PostDao.class);
 		pd.allPosts(u);
 		System.out.println(pd.allLikes(u,re));
-		
+		pd.funDao();
 		
 		System.out.println("///////////");
 		
 		PostService ps = an.getBean("postServiceImpl",PostService.class);
 		System.out.println(ps.allPosts(u,re));
 		System.out.println(ps.allLikes(u));
+		ps.startService();
 
 	}
 

@@ -19,4 +19,9 @@ public class PostDaoImpl implements PostDao{
 		return "PostDao....likes";
 	}
 
+	@Override
+	public void funDao() {
+			System.out.println("funDao....");
+	}
+
 }
