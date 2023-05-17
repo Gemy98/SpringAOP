@@ -20,7 +20,7 @@ public class MainApp {
 		
 		
 		PostService ps = an.getBean("postServiceImpl",PostService.class);
-		ps.allPosts();
+		System.out.println(ps.allPosts());
 
 	}
 
