@@ -1,4 +1,4 @@
-package com.spring.aop;
+package com.spring.dao;
 
 import org.springframework.stereotype.Component;
 

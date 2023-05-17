@@ -2,10 +2,10 @@ package com.spring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.spring.aop.PostService;
 import com.spring.configuration.SpringContainer;
 import com.spring.dao.PostDao;
 import com.spring.dao.PostDaoImpl;
+import com.spring.dao.PostService;
 import com.spring.dao.Student;
 import com.spring.model.User;
 
