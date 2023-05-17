@@ -12,4 +12,9 @@ public class PostDaoImpl implements PostDao{
 		System.out.println("My Posts....PostDao");
 	}
 
+	@Override
+	public String allLikes() {
+		return "PostDao....likes";
+	}
+
 }
