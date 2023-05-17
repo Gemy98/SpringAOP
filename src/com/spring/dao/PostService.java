@@ -8,4 +8,7 @@ public interface PostService {
 
 	public String allLikes(User user);
 	public void startService();
+	
+	public void setName();
+	public String getName();
 }

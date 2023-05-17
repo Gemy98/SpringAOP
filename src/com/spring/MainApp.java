@@ -21,14 +21,24 @@ public class MainApp {
 		pd.allPosts(u);
 		System.out.println(pd.allLikes(u,re));
 		pd.funDao();
-		
-		System.out.println("///////////");
+		System.out.println("***************");
+		pd.setID();
+		pd.getId();
+		System.out.println("***************");
+
+
+		System.out.println("///////////////////");
 		
 		PostService ps = an.getBean("postServiceImpl",PostService.class);
 		System.out.println(ps.allPosts(u,re));
 		System.out.println(ps.allLikes(u));
 		ps.startService();
+		System.out.println("***************");
+		ps.setName();
+		ps.getName(); 
+		System.out.println("***************");
 
+		
 	}
 
 }
